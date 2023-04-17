@@ -1,0 +1,33 @@
+Package: ForestKDE
+Title: Kernel Density Estimation with Random Forests
+Version: 0.1.0
+Authors@R: 
+    person(given = "David",
+           family = "McCoy",
+           role = c("aut", "cre"),
+           email = "david_mccoy@berkeley.edu",
+           comment = c(ORCID = "0000-0002-5515-6307"))
+Description: Implements a methodology that combines random forests and kernel
+    density estimation for improved prediction performance. The package provides
+    a cross-validated model selection method to find the best parameters for
+    the random forest and kernel functions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Imports: 
+    doParallel,
+    foreach,
+    ks,
+    matrixStats,
+    parallel,
+    randomForestSRC
