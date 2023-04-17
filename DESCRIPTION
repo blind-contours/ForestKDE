@@ -8,7 +8,7 @@ Authors@R:
            email = "david_mccoy@berkeley.edu",
            comment = c(ORCID = "0000-0002-5515-6307"))
 Description: Implements a methodology that combines random forests and kernel
-    density estimation for improved prediction performance. The package provides
+    density estimation. The package provides
     a cross-validated model selection method to find the best parameters for
     the random forest and kernel functions.
 License: MIT + file LICENSE
